@@ -1,0 +1,108 @@
+2011/12/15 15:37:26 [error] [exception.CDbException] exception 'CDbException' with message 'The active record cannot be updated because it is new.' in Z:\usr\local\php5\PEAR\yii\db\ar\CActiveRecord.php:1115
+Stack trace:
+#0 Z:\home\hyip-developers.org\www\protected\components\Controller.php(32): CActiveRecord->saveAttributes(Array)
+#1 Z:\usr\local\php5\PEAR\yii\web\CWebApplication.php(276): Controller->init()
+#2 Z:\usr\local\php5\PEAR\yii\web\CWebApplication.php(136): CWebApplication->runController('site/index')
+#3 Z:\usr\local\php5\PEAR\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#4 Z:\home\hyip-developers.org\www\index.php(14): CApplication->run()
+#5 {main} REQUEST_URI=/index.php?r=site/index
+2011/12/15 15:38:27 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null. The SQL statement executed was: INSERT INTO `visits` (`user_id`) VALUES (NULL).
+in Z:\home\hyip-developers.org\www\protected\components\Controller.php (32)
+in Z:\home\hyip-developers.org\www\index.php (14)
+2011/12/15 15:38:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null. The SQL statement executed was: INSERT INTO `visits` (`user_id`) VALUES (NULL)' in Z:\usr\local\php5\PEAR\yii\db\CDbCommand.php:336
+Stack trace:
+#0 Z:\usr\local\php5\PEAR\yii\db\ar\CActiveRecord.php(1017): CDbCommand->execute()
+#1 Z:\home\hyip-developers.org\www\protected\components\Controller.php(32): CActiveRecord->insert(Array)
+#2 Z:\usr\local\php5\PEAR\yii\web\CWebApplication.php(276): Controller->init()
+#3 Z:\usr\local\php5\PEAR\yii\web\CWebApplication.php(136): CWebApplication->runController('site/index')
+#4 Z:\usr\local\php5\PEAR\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#5 Z:\home\hyip-developers.org\www\index.php(14): CApplication->run()
+#6 {main} REQUEST_URI=/index.php?r=site/index
+2011/12/15 15:38:58 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null. The SQL statement executed was: INSERT INTO `visits` (`user_id`) VALUES (NULL).
+in Z:\home\hyip-developers.org\www\protected\components\Controller.php (32)
+in Z:\home\hyip-developers.org\www\index.php (14)
+2011/12/15 15:38:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null. The SQL statement executed was: INSERT INTO `visits` (`user_id`) VALUES (NULL)' in Z:\usr\local\php5\PEAR\yii\db\CDbCommand.php:336
+Stack trace:
+#0 Z:\usr\local\php5\PEAR\yii\db\ar\CActiveRecord.php(1017): CDbCommand->execute()
+#1 Z:\home\hyip-developers.org\www\protected\components\Controller.php(32): CActiveRecord->insert(Array)
+#2 Z:\usr\local\php5\PEAR\yii\web\CWebApplication.php(276): Controller->init()
+#3 Z:\usr\local\php5\PEAR\yii\web\CWebApplication.php(136): CWebApplication->runController('site/index')
+#4 Z:\usr\local\php5\PEAR\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#5 Z:\home\hyip-developers.org\www\index.php(14): CApplication->run()
+#6 {main} REQUEST_URI=/index.php?r=site/index
+2011/12/15 15:39:00 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null. The SQL statement executed was: INSERT INTO `visits` (`user_id`) VALUES (NULL).
+in Z:\home\hyip-developers.org\www\protected\components\Controller.php (32)
+in Z:\home\hyip-developers.org\www\index.php (14)
+2011/12/15 15:39:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null. The SQL statement executed was: INSERT INTO `visits` (`user_id`) VALUES (NULL)' in Z:\usr\local\php5\PEAR\yii\db\CDbCommand.php:336
+Stack trace:
+#0 Z:\usr\local\php5\PEAR\yii\db\ar\CActiveRecord.php(1017): CDbCommand->execute()
+#1 Z:\home\hyip-developers.org\www\protected\components\Controller.php(32): CActiveRecord->insert(Array)
+#2 Z:\usr\local\php5\PEAR\yii\web\CWebApplication.php(276): Controller->init()
+#3 Z:\usr\local\php5\PEAR\yii\web\CWebApplication.php(136): CWebApplication->runController('site/index')
+#4 Z:\usr\local\php5\PEAR\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#5 Z:\home\hyip-developers.org\www\index.php(14): CApplication->run()
+#6 {main} REQUEST_URI=/index.php?r=site/index
+2011/12/15 15:39:12 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null. The SQL statement executed was: INSERT INTO `visits` (`user_id`) VALUES (NULL).
+in Z:\home\hyip-developers.org\www\protected\components\Controller.php (32)
+in Z:\home\hyip-developers.org\www\index.php (14)
+2011/12/15 15:39:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null. The SQL statement executed was: INSERT INTO `visits` (`user_id`) VALUES (NULL)' in Z:\usr\local\php5\PEAR\yii\db\CDbCommand.php:336
+Stack trace:
+#0 Z:\usr\local\php5\PEAR\yii\db\ar\CActiveRecord.php(1017): CDbCommand->execute()
+#1 Z:\home\hyip-developers.org\www\protected\components\Controller.php(32): CActiveRecord->insert(Array)
+#2 Z:\usr\local\php5\PEAR\yii\web\CWebApplication.php(276): Controller->init()
+#3 Z:\usr\local\php5\PEAR\yii\web\CWebApplication.php(136): CWebApplication->runController('site/index')
+#4 Z:\usr\local\php5\PEAR\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#5 Z:\home\hyip-developers.org\www\index.php(14): CApplication->run()
+#6 {main} REQUEST_URI=/index.php?r=site/index
+2011/12/15 15:42:30 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "isGuest".' in Z:\usr\local\php5\PEAR\yii\base\CComponent.php:269
+Stack trace:
+#0 Z:\home\hyip-developers.org\www\protected\components\Controller.php(25): CComponent->__call('isGuest', Array)
+#1 Z:\home\hyip-developers.org\www\protected\components\Controller.php(25): CWebUser->isGuest()
+#2 Z:\usr\local\php5\PEAR\yii\web\CWebApplication.php(276): Controller->init()
+#3 Z:\usr\local\php5\PEAR\yii\web\CWebApplication.php(136): CWebApplication->runController('site/index')
+#4 Z:\usr\local\php5\PEAR\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#5 Z:\home\hyip-developers.org\www\index.php(14): CApplication->run()
+#6 {main} REQUEST_URI=/index.php?r=site/index
+2011/12/15 15:42:40 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "isGuest".' in Z:\usr\local\php5\PEAR\yii\base\CComponent.php:269
+Stack trace:
+#0 Z:\home\hyip-developers.org\www\protected\components\Controller.php(25): CComponent->__call('isGuest', Array)
+#1 Z:\home\hyip-developers.org\www\protected\components\Controller.php(25): CWebApplication->isGuest()
+#2 Z:\usr\local\php5\PEAR\yii\web\CWebApplication.php(276): Controller->init()
+#3 Z:\usr\local\php5\PEAR\yii\web\CWebApplication.php(136): CWebApplication->runController('site/index')
+#4 Z:\usr\local\php5\PEAR\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#5 Z:\home\hyip-developers.org\www\index.php(14): CApplication->run()
+#6 {main} REQUEST_URI=/index.php?r=site/index
+2011/12/15 15:45:38 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.user" is not defined.' in Z:\usr\local\php5\PEAR\yii\base\CComponent.php:131
+Stack trace:
+#0 Z:\usr\local\php5\PEAR\yii\web\auth\CWebUser.php(124): CComponent->__get('user')
+#1 Z:\home\hyip-developers.org\www\protected\components\Controller.php(25): CWebUser->__get('user')
+#2 Z:\usr\local\php5\PEAR\yii\web\CWebApplication.php(276): Controller->init()
+#3 Z:\usr\local\php5\PEAR\yii\web\CWebApplication.php(136): CWebApplication->runController('site/index')
+#4 Z:\usr\local\php5\PEAR\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#5 Z:\home\hyip-developers.org\www\index.php(14): CApplication->run()
+#6 {main} REQUEST_URI=/index.php?r=site/index
+2011/12/15 15:51:42 [error] [php] Wrong parameter count for var_dump() (Z:\home\hyip-developers.org\www\protected\components\Controller.php:27)
+Stack trace:
+#0 Z:\usr\local\php5\PEAR\yii\web\CWebApplication.php(136): CWebApplication->runController()
+#1 Z:\usr\local\php5\PEAR\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#2 Z:\home\hyip-developers.org\www\index.php(14): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/logout
+in Z:\home\hyip-developers.org\www\protected\components\Controller.php (27)
+in Z:\home\hyip-developers.org\www\index.php (14)
+2011/12/15 15:53:39 [error] [php] session_regenerate_id() [<a href='function.session-regenerate-id'>function.session-regenerate-id</a>]: Cannot regenerate session id - headers already sent (Z:\usr\local\php5\PEAR\yii\web\CHttpSession.php:166)
+Stack trace:
+#0 Z:\usr\local\php5\PEAR\yii\web\auth\CWebUser.php(213): CWebUser->changeIdentity()
+#1 Z:\home\hyip-developers.org\www\protected\models\LoginForm.php(71): CWebUser->login()
+#2 Z:\home\hyip-developers.org\www\protected\controllers\SiteController.php(88): LoginForm->login()
+#3 Z:\usr\local\php5\PEAR\yii\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#4 Z:\usr\local\php5\PEAR\yii\web\CController.php(300): CInlineAction->runWithParams()
+#5 Z:\usr\local\php5\PEAR\yii\web\CController.php(278): SiteController->runAction()
+#6 Z:\usr\local\php5\PEAR\yii\web\CController.php(257): SiteController->runActionWithFilters()
+#7 Z:\usr\local\php5\PEAR\yii\web\CWebApplication.php(277): SiteController->run()
+#8 Z:\usr\local\php5\PEAR\yii\web\CWebApplication.php(136): CWebApplication->runController()
+#9 Z:\usr\local\php5\PEAR\yii\base\CApplication.php(158): CWebApplication->processRequest()
+#10 Z:\home\hyip-developers.org\www\index.php(14): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/login
+in Z:\home\hyip-developers.org\www\protected\models\LoginForm.php (71)
+in Z:\home\hyip-developers.org\www\protected\controllers\SiteController.php (88)
+in Z:\home\hyip-developers.org\www\index.php (14)
