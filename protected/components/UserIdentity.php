@@ -9,15 +9,15 @@ class UserIdentity extends CUserIdentity {
 	private $_id;
 
 	public function authenticate() {
-		$user = User::model()->findByAttributes(array('username' => $this->username,
+		$member = Member::model()->findByAttributes(array('username' => $this->username,
 													  'password' => md5($this->password)));
 
-		if ($user === null) {
+		if ($member === null) {
 			$this->errorCode = self::ERROR_UNKNOWN_IDENTITY;
 		}
 		else {
 			$this->errorCode = self::ERROR_NONE;
-			$this->_id= $user->id;
+			$this->_id= $member->id;
 		}
 
 		return !$this->errorCode;

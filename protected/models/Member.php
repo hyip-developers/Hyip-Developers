@@ -22,12 +22,12 @@
  * The followings are the available model relations:
  * @property Visits $visits
  */
-class User extends CActiveRecord
+class Member extends CActiveRecord
 {
 	/**
 	 * @static
 	 * @param string $className
-	 * @return User|CActiveRecord
+	 * @return Member|CActiveRecord
 	 */
 	public static function model($className=__CLASS__)
 	{
